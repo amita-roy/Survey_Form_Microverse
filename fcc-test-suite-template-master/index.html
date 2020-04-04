@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1 id="title">Cosmetics Uses Survey Form</h1>
+        <p id="description">
+          Thank you for taking the time to provide feedback on cosmetic uses.
+        </p>
+      </div>
+
+      <form id="survey-form">
+        <div class="name">
+          <div class="label">
+            <label for="name" id="name-label">Name</label>
+          </div>
+
+          <div>
+            <input id="name" type="text" required placeholder="Enter name" />
+          </div>
+        </div>
+
+        <div class="email">
+          <div class="label">
+            <label for="email" id="email-label">Email</label>
+          </div>
+
+          <div>
+            <input type="email" id="email" required placeholder="Enter email" />
+          </div>
+        </div>
+
+        <div class="age">
+          <div class="label">
+            <label for="number" id="number-label">Age</label>
+          </div>
+
+          <div>
+            <input
+              type="number"
+              id="number"
+              min="16"
+              max="100"
+              required
+              placeholder="Enter age"
+            />
+          </div>
+        </div>
+
+        <div>
+          <p>What images do cosmetic users project to you?</p>
+          <select name="options" id="dropdown" class="select">
+            <option value="">Stylish</option>
+            <option value="">Confident</option>
+            <option value="">Professional</option>
+            <option value="">Can't answer</option>
+          </select>
+        </div>
+
+        <div class="radio-buttons">
+          <p>Do you buy cosmetic after watching advertisment</p>
+          <label for="yes">
+            Yes
+          </label>
+          <input id="yes" type="radio" name="advertisment-option" value="Yes" />
+
+          <label for="no">
+            No
+          </label>
+          <input id="no" type="radio" name="advertisment-option" value="No" />
+
+          <label for="maybe">
+            Maybe
+          </label>
+          <input
+            id="maybe"
+            type="radio"
+            name="advertisment-option"
+            value="Maybe"
+          />
+        </div>
+
+        <div class="checkboxes">
+          <p>What motivates your purchasing process in terms of cosmetics?</p>
+          <div class="checkbox">
+            <input id="discount" type="checkbox" value="discount" />
+            <label for="discount">Discount</label>
+          </div>
+
+          <div class="checkbox">
+            <input id="latest-trend" type="checkbox" value="latest-trend" />
+            <label for="latest-trend">Latest Trend</label>
+          </div>
+
+          <div class="checkbox">
+            <input id="advertisment" type="checkbox" value="advertisment" />
+            <label for="advertisment">Advertisment</label>
+          </div>
+
+          <div class="checkbox">
+            <input id="product-need" type="checkbox" value="product-need" />
+            <label for="product-need">Product Need</label>
+          </div>
+        </div>
+        <div class="textarea">
+          <p>
+            Any comments or suggestions on how we can improve to get more
+            feedback?
+          </p>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter your comments"
+          ></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

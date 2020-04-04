@@ -1,0 +1,74 @@
+.container {
+  width: 800px;
+  padding: 30px 40px;
+  margin: 0 auto;
+  background-color: rgb(0, 132, 165);
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.name,
+.email,
+.age {
+  margin-bottom: 30px;
+}
+
+.label {
+  margin-bottom: 20px;
+}
+
+.name input,
+.email input,
+.age input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.select {
+  width: 95%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+
+.radio-buttons,
+.textarea,
+.checkboxes {
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 85%;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+button {
+  width: 120px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.checkboxes input {
+  width: 30px;
+  height: 30px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
